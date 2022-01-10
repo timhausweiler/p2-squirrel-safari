@@ -25,7 +25,7 @@ Squirrel Safari is an updated version of my [P1 Squirrel Safari](https://github.
 
 ## API and Data Sample
 
-https://airtable.com/shrTv92TftYf4SVZZ
+[Airtable](https://airtable.com/invite/l?inviteId=invEqngm0hclCeYsR&inviteToken=3029fa974c49db8b771dc40c01ef6368683ee7c8bf13dff490146d4515136bdd&utm_source=email) 
 
 Airtable is returning the data for this base as follows:
 
@@ -33,27 +33,28 @@ Airtable is returning the data for this base as follows:
 {
     "records": [
         {
-            "id": "recjruUyWVhOO6mJP",
+            "id": "recB6TTY0qU6PMDku",
             "fields": {
-                "title": "The Godfather",
-                "rating": 5,
-                "opinion": "A classic cinematic theme executed perfectly. The acting, spearheaded by Marlon Brando, made the story memorable. "
+                "Name": "Tim",
+                "Date": "2021-12-31",
+                "Location": "Northern Half",
+                "Your story": "Saw a squirrel - it was cool!"
             },
-            "createdTime": "2020-10-09T00:27:04.000Z"
+            "createdTime": "2022-01-10T11:38:32.000Z"
         },
         {
-            "id": "rec85tP6Ra4a3JiKL",
-            "fields": {
-                "title": "Independence Day",
-                "rating": 3,
-                "opinion": "This movie was not very good in terms of cinematic quality, however it smells of nostalgia which I can't help but enjoy every July 4th. "
-            },
-            "createdTime": "2020-10-09T00:27:04.000Z"
+            "id": "recXZyiKMib16PyUL",
+            "fields": {},
+            "createdTime": "2022-01-10T11:38:32.000Z"
+        },
+        {
+            "id": "reczZW7Kr3s9Kf1pF",
+            "fields": {},
+            "createdTime": "2022-01-10T11:38:32.000Z"
         }
     ],
-    "offset": "rec85tP6Ra4a3JiKL"
+    "offset": "itrIR7V99jwPOqk0q/reczZW7Kr3s9Kf1pF"
 }
-
 ```
 
 ### MVP/PostMVP
