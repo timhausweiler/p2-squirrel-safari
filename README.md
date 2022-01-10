@@ -10,9 +10,14 @@ Squirrel Safari is an updated version of my [P1 Squirrel Safari](https://github.
 
 ## Wireframes
 
-The wireframes below depict the homepage and review feed for What-cha-Think in web, tablet and phone format. The homepage contains a header displaying the app title and three clickable icons - movies, television and sports - that route to each respective review feed. The review feeds contain an input form and submit button for review data. Below the form is a feed of all past forms, along with a delete button for each post. The screens will center as screen size decreases.
+![Desktop wireframe home](https://lh3.googleusercontent.com/pw/AM-JKLX2NpbbVJZUzy0EKVn-LsFcYNTVqNckBBiG23GE3Y60zxwOqULgprbd4G4wWA4GCWdJd9C_2_0twxAsOB_bfQg7wAVkYCUCYbICRATPzXb-hdbazeQi-Ijm0CHuwbZpO1Os72AsK-pDIJW-drMshJF5bw=w1928-h1162-no?authuser=0)
+![Desktop wireframe take a walk](https://lh3.googleusercontent.com/pw/AM-JKLXXj6TMjiPl3pNRl4ji_6AIhl_oKZFwIbN5Ry06Zxpw7CE9VJPXanLuqHWKj4r2fne2Ks-IHMeOoPAHFBy1B2aXUL3hWY-r6mt9BI6UzwyAp1Pdnx_3QV5ubh0yA1LtPA1Hr28acbtfOxCs7xYZw3OwkQ=w1926-h1162-no?authuser=0)
+![Desktop wireframe submit](https://lh3.googleusercontent.com/pw/AM-JKLW9jQVWhNvQ8E_gam6Yv7jm4KnSFc7OV0r416mWCEn7xTCN6OKgXti2gaAjpDhTXlnrYnub_VQ7jg-880sE8ze20m8TW9G8cr78f9mmI-3wU3a_Ut1-188j7Tdurp-oB8mNSKOb1cHYnwgz8tU56oAexw=w1928-h1164-no?authuser=0)
 
-![imageAlt](https://i.imgur.com/IX2UVl9.png)
+![Mobile wireframe home](https://lh3.googleusercontent.com/pw/AM-JKLUiCkVL2_teoQiWbcOh3A8xdjELJ8vMrsDdUgRIsKij7bZKL1hKpyiYtgJVfDMR3mlgnCuUUow556S_BE8EJfLIgctWKbXT2Pc4WSuJkxiTk1xqziIdE786n9BPU18XUv3KJmIMlLFd1HctzooEmboDyg=w524-h954-no?authuser=0)
+![Mobile wireframe take a walk](https://lh3.googleusercontent.com/pw/AM-JKLXh9ppKI2t-N49Ztq0F_8_BwY2OG7kiuZxMkUPyQ0hRceOIuvbXskPP9UB6y1gviHbD1VO2M2phrNnOVa6fTdiqj1ATEjUboo6IocjAV20aqMym2Vp0Fj1f29GM1sqhRwqMTAWA739vec56cZdvc17MRQ=w522-h952-no?authuser=0)
+![Mobile wireframe submit](https://lh3.googleusercontent.com/pw/AM-JKLXSF9-KyftLLYjv4X6FhXe4gt_itnXc9IMBVEHbPttdi2wTMheoDFPTimhyWuLkLIyJ4P7fQDBKdZvbFM0Cfsc-GCv0_Ke7AyrG460NzErpNtyBrUI3tOEkA8E1DEEK2I7ssEI6vQsv15F8nGswIq9emQ=w526-h954-no?authuser=0)
+
 
 ## Component Hierarchy
 
