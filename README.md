@@ -6,7 +6,7 @@ Link coming soon
 
 ## Project Description
 
-Squirrel Safari is an updated version of my P1 Squirrel Safari. In addition to the app's first version, this version will not only allow users to read through other user's stories about observations of the squirrel population in Central Park, but will also allow users to submit their own stories. These stories will then be added to our story collection and will be made available to read for all other users. In addition, users will be able to edit and delete existing stories.
+Squirrel Safari is an updated version of my [P1 Squirrel Safari](https://github.com/timhausweiler/p1-squirrel-safari). This app's second version will not only allow users to read through other user's stories about observations of the squirrel population in Central Park, but in addition will also allow users to submit their own stories. These stories will then be added to our collection of stories and will be made available to read for all other users. In addition, users will be able to edit and delete existing stories.
 
 ## Wireframes
 
