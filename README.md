@@ -91,8 +91,14 @@ Airtable is returning the data for this base as follows:
 | Airtable setup            |    H     |     .5hrs      |      1hr      |     1hr     |
 | Initial setup of react app|    H     |     1hr      |      tbd      |     tbd     |
 | Get functionality         |    H     |     4hrs      |      tbd      |     tbd     |
-
-| Total                     |    H     |    42.5hrs     |     35hrs     |    35hrs    |
+| Set functionality         |    H     |     4hrs      |      tbd      |     tbd     |
+| Router functionality         |    H     |     4hrs      |      tbd      |     tbd     |
+| Setting up components         |    H     |     4hrs      |      tbd      |     tbd     |
+| Component functionality         |    H     |     8hrs      |      tbd      |     tbd     |
+| Styling         |    H     |     4hrs      |      tbd      |     tbd     |
+| Responsiveness         |    H     |     4hrs      |      tbd      |     tbd     |
+| Misc / bug fixes         |    H     |     4hrs      |      tbd      |     tbd     |
+| Total                     |    H     |    41.5hrs     |     tbd     |    tbd    |
 
 ## SWOT Analysis
 
