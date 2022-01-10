@@ -1,12 +1,12 @@
-# p2-squirrel-safari
+# Project Overview 
 
-# What-cha-Think
+## Project name: Squirrel Safari
 
-https://jolly-kare-8a9826.netlify.app/
+Link coming soon
 
 ## Project Description
 
-What-cha-Think is an Airtable and React build where the user is able to leave reviews for various forms of entertainment. From the homepage, the user is able to navigate to and click on an icon that leads to a corresponding page populated with film, television or sporting-event reviews. Each respective page will lead to a feed of past reviews and a form to create new reviews. Each review will be deletable.
+Squirrel Safari is an updated version of my P1 Squirrel Safari. In addition to the app's first version, this version will not only allow users to read through other user's stories about observations of the squirrel population in Central Park, but will also allow users to submit their own stories. These stories will then be added to our story collection and will be made available to read for all other users. In addition, users will be able to edit and delete existing stories.
 
 ## Wireframes
 
