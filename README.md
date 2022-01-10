@@ -21,7 +21,7 @@ Squirrel Safari is an updated version of my [P1 Squirrel Safari](https://github.
 
 ## Component Hierarchy
 
-![imageAlt](https://i.imgur.com/PhRA82l.png)
+![Component hierarchy](https://lh3.googleusercontent.com/pw/AM-JKLVgVrfxdbJzwwj_sZmn33g36wqXvrzewrw59pqIQ8jrqxwSHQVQPQj_olz6X5FEyHteUM-pb8Ch7xMLapIyTx9_B_llKHGnKgA23WISvgmQh4ywtzuclc98s-oqXPRXUGZZL1vdpiy1yWkQJVPlqlYGHA=w1274-h662-no?authuser=0)
 
 ## API and Data Sample
 
