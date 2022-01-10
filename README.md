@@ -61,16 +61,16 @@ Airtable is returning the data for this base as follows:
 
 #### MVP
 
-- Home page with clickable icons that route to each respective feed.
-- Get and post film reviews from Airtable.
-- Use forms to create reviews and update Airtable.
-- Delete posts from the feed and airtable.
+- Landing page
+- "Take a walk"-functionality that loads random story from API and renders it
+- "Submit your own"-functionality that allows users to submit their own story
 
 #### PostMVP
 
-- Collaborate with a UX student to make the UI more attractive/user-friendly.
-- Get and post TV and sports reviews in separate routed icon links.
-- Add a search bar to each review page to find reviews via keywords in the title.
+- Header for easier navigation
+- Edit submitted story
+- Overview of all stories submitted
+- Delete submitted story
 
 ## Project Schedule
 
