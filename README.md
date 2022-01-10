@@ -76,12 +76,12 @@ Airtable is returning the data for this base as follows:
 
 | Day      | Deliverable                                | Status   |
 | -------- | ------------------------------------------ | -------- |
-| Oct 9-11 | Proposal Approval / Airtable Setup         | Complete |
-| Oct 12   | Component Creation / Get, Set, Delete Data | Complete |
-| Oct 13   | Oct. 12 cont'd / CSS Components            | Complete |
-| Oct 14   | CSS Components cont'd / MVP                | Complete |
-| Oct 15   | Advanced CSS                               | Complete |
-| Oct 16   | Presentations                              | Complete |
+| Jan9-10  | Proposal Approval / Airtable Setup         | WIP      |
+| Jan 10   | Creating react-app and component Creation  |          |
+| Jan 11   | Get and Set Data                           |          |
+| Jan 12   | Router functionality                       |          |
+| Jan 13   | Styling and responsiveness                 |          |
+| Jan 14   | Presentations                              |          |
 
 ## Timeframes
 
