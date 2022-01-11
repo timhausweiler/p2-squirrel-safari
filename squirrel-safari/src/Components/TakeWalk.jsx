@@ -1,16 +1,17 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import api from '../Services/apiConfig';
 
 export default function TakeWalk() {
   const [story, setStory] = useState([]);
 
   useEffect(() => {
-    const fetchCharacters = async () => {
+    const fetchStories = async () => {
       const res = await api.get();
-      // console.log(res.data.records);
-      setCharacters(res.data.records);
+      console.log(res.data.records);
+      // setStory(res.data.records);
     }
-    fetchCharacters();
+    fetchStories();
   }, [])
   
   return (
