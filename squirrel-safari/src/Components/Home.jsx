@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import TakeWalkButton from './TakeWalkButton';
 
 export default function Home() {
   return (
@@ -9,7 +10,7 @@ export default function Home() {
       />
       <h1>Welcome to Squirrel Safari</h1>
       <h4>Squirrel Safari allows you to take a (vritual) walk through Central Park to learn about the local squirrel population!</h4>
-      <button>Take a walk</button>
+      <TakeWalkButton />
       <p>Or contribute your own story to our collection</p>
     </div>
   )

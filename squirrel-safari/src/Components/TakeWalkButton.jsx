@@ -6,6 +6,6 @@ export default function TakeWalkButton() {
   const navigate = useNavigate();
 
   return (
-    <button onClick= {navigate("/TakeWalk")}>Take a walk</button>
+    <button onClick= {()=>{navigate("/takewalk")}}>Take a walk!</button>
   )
 }
