@@ -26,7 +26,7 @@ export default function Contribute() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     const fields = input;
-    const res = await api.post("/", { fields });
+    await api.post("/", { fields });
     setInput(default_input);
     navigate("/");
     // console.log(res.data);
