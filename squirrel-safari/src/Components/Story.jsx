@@ -5,6 +5,8 @@ import TakeWalkButton from './TakeWalkButton';
 
 export default function Story() {
   const [story, setStory] = useState({});
+  const [click, setClick] =useState(true)
+
   const { id } = useParams();
   
   useEffect(() => {
@@ -13,7 +15,7 @@ export default function Story() {
       setStory(res.data);
     };
     fetchStories();
-  }, [])
+  }, [click])
 
   if (!story.fields) {
     return <div><h2>Walking...!!!</h2></div>
@@ -23,8 +25,7 @@ export default function Story() {
     <div>
       <h2>{story.fields?.name}</h2>
       <h4>{story.fields.story}</h4>
-      <TakeWalkButton/>
+      <TakeWalkButton click={click} setClick={setClick}/>
     </div>
   )
-
 }

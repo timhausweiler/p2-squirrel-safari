@@ -3,7 +3,6 @@ import { Routes, Route } from 'react-router-dom';
 import { Link } from "react-router-dom"
 
 import Contribute from './Components/Contribute';
-import TakeWalk from './Components/TakeWalk';
 import TakeWalkButton from './Components/TakeWalkButton';
 import Story from './Components/Story';
 
@@ -25,7 +24,6 @@ function App() {
             <Link to ="/contribute" >Or contribute your own observation to our collection</Link>
           </div>
         } />
-        <Route path="/takewalk" element={<TakeWalk />} />
         <Route path="/contribute" element={<Contribute />} />
         <Route path = "/story/:id" element = {<Story />}/>
       </Routes>
