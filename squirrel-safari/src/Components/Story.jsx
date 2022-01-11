@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 
 export default function Story() {
-  const [story, setStory] = useState({}); 
+  const [story, setStory] = useState({});
   const { id } = useParams();
   
   useEffect(() => {
@@ -16,18 +16,13 @@ export default function Story() {
 
   if (!story.fields) {
     return <div><h2>Walking...!!!</h2></div>
-    }
+  }
     
-    return (
-      <div>
-        <h2>{story.fields?.name}</h2>
-        <h4>{story.fields.story}</h4>
-        
-      </div>
-
   return (
     <div>
-      
+      <h2>{story.fields?.name}</h2>
+      <h4>{story.fields.story}</h4>
     </div>
   )
+
 }
