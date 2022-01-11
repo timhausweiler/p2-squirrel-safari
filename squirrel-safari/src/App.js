@@ -20,7 +20,7 @@ function App() {
             <h4>Squirrel Safari allows you to take a (vritual) walk through Central Park to learn about the local squirrel population!</h4>
             <TakeWalkButton />
             <br/>
-            <Link to ="/takewalk" >Or contribute your own observation to our collection</Link>
+            <Link to ="/contribute" >Or contribute your own observation to our collection</Link>
           </div>
         } />
         <Route path="/takewalk" element={<TakeWalk />} />
