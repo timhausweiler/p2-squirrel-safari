@@ -14,11 +14,11 @@ code {
     monospace;
 }
 
-.logo {
+/* .logo {
   border-radius: 50%;
   border: solid rgb(216, 216, 216) 6px;
   margin: 2vh 0 0 0;
-}
+} */
 
 body {
   display: flex;
@@ -98,6 +98,7 @@ input {
 .navbar {
   display: flex;
   justify-content: space-between;
+  background-color: rgb(234, 234, 234);
 }
 
 .nav-img-container {
@@ -112,7 +113,7 @@ input {
 .nav-img {
   height: 5vw;
   border-radius: 50%;
-  border: solid rgb(216, 216, 216) 6px;
+  border: solid rgb(108, 108, 108) 6px;
   margin: 1vh;
   max-height: 50px;
 }
