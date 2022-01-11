@@ -24,11 +24,11 @@ function App() {
             <p>Squirrel Safari allows you to take a (virtual) walk through Central Park to learn about the local squirrel population!</p>
             <TakeWalkButton click={click} setClick={ setClick}/>
             <br/>
-            <Link to="/contribute" >Or contribute your own observation to our collection</Link>
+            <Link to="/contribute" className = "link">Or contribute your own observation to our collection</Link>
           </div>
         } />
         <Route path="/contribute" element={<Contribute />} />
-        <Route path = "/story/:id" element = {<StoryContainer />}/>
+        <Route path = "/story/:id" element = {<StoryContainer click={click} setClick={ setClick}/>}/>
       </Routes>
     </div>
   );

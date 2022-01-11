@@ -32,14 +32,39 @@ body {
 }
 
 p {
-  margin: 0 0 3vh 0;
-  max-width: 80vw;
   text-align: center;
+  margin: 0 0 3vh 0;
 }
 
 button {
   background-color: rgb(246, 246, 246);
   padding: 1.5vh;
   font-size: medium;
+  border: solid rgb(216, 216, 216) 4px;
+}
+
+.link {
+  color: rgb(153, 153, 153);
+}
+
+.map {
+  height: 100%;
+  margin: 0 1vw;
+  border: solid rgb(216, 216, 216) 4px;
+}
+
+.story-container {
+  display: flex;
+  height: 400px;
+  margin: 2vh;
+  flex-direction: row;
+  align-items: start;
+}
+
+.story-content {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 30vw;
   border: solid rgb(216, 216, 216) 4px;
 }

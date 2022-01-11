@@ -3,9 +3,8 @@ import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import TakeWalkButton from './TakeWalkButton';
 
-export default function StoryContent() {
+export default function Story(props) {
   const [story, setStory] = useState({});
-  const [click, setClick] =useState(true)
 
   const { id } = useParams();
   
@@ -15,7 +14,7 @@ export default function StoryContent() {
       setStory(res.data);
     };
     fetchStories();
-  }, [click])
+  }, [props])
 
   if (!story.fields) {
     return <div><h2>Walking...!!!</h2></div>
@@ -25,7 +24,6 @@ export default function StoryContent() {
     <div>
       <h2>{story.fields?.name}</h2>
       <h4>{story.fields.story}</h4>
-      <TakeWalkButton click={click} setClick={setClick}/>
     </div>
   )
 }
