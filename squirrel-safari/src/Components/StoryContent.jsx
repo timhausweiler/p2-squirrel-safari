@@ -6,6 +6,8 @@ export default function Story(props) {
   const [story, setStory] = useState({});
 
   const { id } = useParams();
+
+  const month = story.fields;
   
   useEffect(() => {
     const fetchStories = async () => {
@@ -21,7 +23,7 @@ export default function Story(props) {
     
   return (
     <div className = "story-box">
-      <div className = "headline">{story.fields?.name}</div>
+      <div className="headline">Submitted by {story.fields?.name} on {story.fields.date}</div>
       <div className = "story">{story.fields.story}</div>
     </div>
   )
