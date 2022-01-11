@@ -1,8 +1,8 @@
 import React from 'react';
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
-const navigate = useNavigate();
 
+import api from '../Services/apiConfig';
 import Form from './Form';
 
 const default_input = {
@@ -13,6 +13,7 @@ const default_input = {
 export default function Contribute() {
 
   const [input, setInput] = useState(default_input);
+  const navigate = useNavigate();
 
   const handleTextInput = (event) => { 
     const { id, value } = event.target;
@@ -27,7 +28,7 @@ export default function Contribute() {
     const fields = input;
     const res = await api.post("/", { fields });
     setInput(default_input);
-    navigate("/characters");
+    navigate("/");
     // console.log(res.data);
   }
 
