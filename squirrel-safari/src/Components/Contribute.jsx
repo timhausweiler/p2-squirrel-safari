@@ -34,7 +34,7 @@ export default function Contribute() {
 
   return (
     <div>
-      Add your own observation to our collection
+      <h2>Add your own observation to our collection</h2>
       <Form
         input={input}
         handleTextInput={handleTextInput}

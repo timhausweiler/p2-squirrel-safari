@@ -6,12 +6,14 @@ import { useState, useEffect } from 'react';
 import Contribute from './Components/Contribute';
 import TakeWalkButton from './Components/TakeWalkButton';
 import StoryContainer from './Components/StoryContainer';
+import Navbar from './Components/Navbar';
 
 function App() {
   const [click, setClick] = useState();
 
   return (
     <div className="App">
+      <Navbar/>
       <Routes>
         <Route path="/" element={
           <div className ="body">
@@ -23,6 +25,7 @@ function App() {
             <h1>Welcome to Squirrel Safari</h1>
             <p>Squirrel Safari allows you to take a (virtual) walk through Central Park to learn about the local squirrel population!</p>
             <TakeWalkButton click={click} setClick={ setClick} buttonText = "Take a walk"/>
+            <br />
             <br/>
             <Link to="/contribute" className = "link">Or contribute your own observation to our collection</Link>
           </div>
