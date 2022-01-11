@@ -4,22 +4,11 @@ import api from '../Services/apiConfig';
 
 
 export default function TakeWalkButton(props) {
-  const [nextId, setNextId] = useState([]);
   const navigate = useNavigate();
 
-  useEffect(() => {
-    const fetchIds = async () => {
-      const res = await api.get();
-      const len = res.data.records.length;
-      const random = Math.floor(Math.random() * len)
-      console.log(random);
-      setNextId(res.data.records[random].id);
-    }
-    fetchIds();
-  }, [props])
 
   const handleClick = () => {
-    navigate(`/story/${nextId}`)
+    navigate(`/story/${props.nextId}`)
     props.setClick(!props.click);
   }
 

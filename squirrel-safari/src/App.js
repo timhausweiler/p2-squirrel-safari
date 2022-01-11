@@ -7,13 +7,26 @@ import Contribute from './Components/Contribute';
 import TakeWalkButton from './Components/TakeWalkButton';
 import StoryContainer from './Components/StoryContainer';
 import Navbar from './Components/Navbar';
+import api from './Services/apiConfig';
 
 function App() {
+  const [nextId, setNextId] = useState([]);
   const [click, setClick] = useState();
+
+  useEffect(() => {
+    const fetchIds = async () => {
+      const res = await api.get();
+      const len = res.data.records.length;
+      const random = Math.floor(Math.random() * len)
+      console.log(random);
+      setNextId(res.data.records[random].id);
+    }
+    fetchIds();
+  }, [])
 
   return (
     <div className="App">
-      <Navbar/>
+      <Navbar nextId={nextId} setNextId={setNextId}/>
       <Routes>
         <Route path="/" element={
           <div className ="body">
@@ -24,7 +37,7 @@ function App() {
             />
             <h1>Welcome to Squirrel Safari</h1>
             <p>Squirrel Safari allows you to take a (virtual) walk through Central Park to learn about the local squirrel population!</p>
-            <TakeWalkButton click={click} setClick={ setClick} buttonText = "Take a walk"/>
+            <TakeWalkButton click={click} setClick={setClick} buttonText="Take a walk" nextId={nextId} setNextId={setNextId}/>
             <br />
             <br/>
             <Link to="/contribute" className = "link">Or contribute your own observation to our collection</Link>
