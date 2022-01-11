@@ -68,3 +68,23 @@ button {
   width: 30vw;
   border: solid rgb(216, 216, 216) 4px;
 }
+
+.headline {
+  display: flex;
+  background-color: rgb(237, 237, 237);
+  padding: 1vw;
+  font-weight: bold;
+}
+
+.story {
+  padding: 1vw;
+  text-align: left;
+}
+
+.story-box {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 30vw;
+  border: solid rgb(216, 216, 216) 4px;
+}

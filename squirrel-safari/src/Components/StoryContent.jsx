@@ -21,9 +21,9 @@ export default function Story(props) {
   }
     
   return (
-    <div>
-      <h2>{story.fields?.name}</h2>
-      <h4>{story.fields.story}</h4>
+    <div className = "story-box">
+      <div className = "headline">{story.fields?.name}</div>
+      <div className = "story">{story.fields.story}</div>
     </div>
   )
 }

@@ -27,3 +27,4 @@ export default function TakeWalkButton(props) {
     <button onClick={handleClick}>{props.buttonText}</button>
   )
 }
+
