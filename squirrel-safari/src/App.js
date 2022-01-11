@@ -11,8 +11,7 @@ import api from './Services/apiConfig';
 
 function App() {
   const [nextId, setNextId] = useState([]);
-  const [click, setClick] = useState();
-
+  
   useEffect(() => {
     const fetchIds = async () => {
       const res = await api.get();
@@ -21,8 +20,8 @@ function App() {
       console.log(random);
       setNextId(res.data.records[random].id);
     }
-    fetchIds();
-  }, [])
+     fetchIds();
+   }, [])
 
   return (
     <div className="App">
@@ -37,14 +36,14 @@ function App() {
             />
             <h1>Welcome to Squirrel Safari</h1>
             <p>Squirrel Safari allows you to take a (virtual) walk through Central Park to learn about the local squirrel population!</p>
-            <TakeWalkButton click={click} setClick={setClick} buttonText="Take a walk" nextId={nextId} setNextId={setNextId}/>
+            <TakeWalkButton buttonText="Take a walk" nextId={nextId} setNextId={setNextId}/>
             <br />
             <br/>
             <Link to="/contribute" className = "link">Or contribute your own observation to our collection</Link>
           </div>
         } />
         <Route path="/contribute" element={<Contribute />} />
-        <Route path = "/story/:id" element = {<StoryContainer click={click} setClick={ setClick}/>}/>
+        <Route path = "/story/:id" element = {<StoryContainer />}/>
       </Routes>
     </div>
   );

@@ -4,8 +4,6 @@ import TakeWalkButton from './TakeWalkButton';
 import { useState } from 'react';
 
 export default function StoryContainer(props) {
-  const [click, setClick] = useState(true);
-  
   return (
     <div>
       <h2>Start your Squirrel Safari</h2>
@@ -15,9 +13,9 @@ export default function StoryContainer(props) {
           alt="map of central park"
           className = "map"
         />
-        <StoryContent className="story-content" click={props.click}/>
+        <StoryContent className="story-content"/>
       </div>
-      <TakeWalkButton click={props.click} setClick={props.setClick} buttonText = "Walk to next squirrel"/>
+      <TakeWalkButton buttonText = "Walk to next squirrel"/>
     </div>
   )
 }

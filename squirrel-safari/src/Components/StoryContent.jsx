@@ -1,7 +1,6 @@
 import api from '../Services/apiConfig';
 import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import TakeWalkButton from './TakeWalkButton';
 
 export default function Story(props) {
   const [story, setStory] = useState({});

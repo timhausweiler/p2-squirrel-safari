@@ -29,7 +29,6 @@ export default function Contribute() {
     await api.post("/", { fields });
     setInput(default_input);
     navigate("/");
-    // console.log(res.data);
   }
 
   return (
