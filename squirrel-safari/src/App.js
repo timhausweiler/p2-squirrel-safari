@@ -1,4 +1,4 @@
-import './App.css';
+import './index.css';
 import { Routes, Route } from 'react-router-dom';
 import { Link } from "react-router-dom"
 import { useState, useEffect } from 'react';
@@ -8,6 +8,7 @@ import TakeWalkButton from './Components/TakeWalkButton';
 import StoryContainer from './Components/StoryContainer';
 import Navbar from './Components/Navbar';
 import api from './Services/apiConfig';
+import Footer from './Components/Footer';
 
 function App() {
   const [nextId, setNextId] = useState([]);
@@ -25,16 +26,16 @@ function App() {
    }, [click])
 
   return (
-    <div className="App">
+    <div className="body">
       <Navbar nextId={nextId} setNextId={setNextId}/>
       <Routes>
         <Route path="/" element={
           <div className ="body">
-            <img
+            {/* <img
               src= {"https://i.imgur.com/RK3UbZi.jpeg"}
               alt="Logo of Squirrel Safari"
               className="logo"
-            />
+            /> */}
             <h1>Welcome to Squirrel Safari</h1>
             <p>Squirrel Safari allows you to take a (virtual) walk through Central Park to learn about the local squirrel population!</p>
             <TakeWalkButton buttonText="Take a walk" nextId={nextId} setNextId={setNextId} setClick={setClick}/>
@@ -46,6 +47,7 @@ function App() {
         <Route path="/contribute" element={<Contribute />} />
         <Route path="/story/:id" element={<StoryContainer nextId={nextId} setClick={setClick}/>}/>
       </Routes>
+      <Footer/>
     </div>
   );
 }

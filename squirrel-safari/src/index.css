@@ -2,10 +2,11 @@
   font-family: Roboto;
 }
 
-body {
+.body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: center;
 }
 
 code {
@@ -32,8 +33,7 @@ body {
 }
 
 p {
-  text-align: center;
-  margin: 0 0 3vh 0;
+  /* max-width: 80%; */
 }
 
 button {
@@ -93,4 +93,37 @@ input {
   width: 30vw;
   border: solid rgb(216, 216, 216) 4px;
   margin: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-img-container {
+  text-align: left;
+}
+
+.nav-txt-container {
+  display: flex;
+  text-align: right;
+}
+
+.nav-img {
+  height: 5vw;
+  border-radius: 50%;
+  border: solid rgb(216, 216, 216) 6px;
+  margin: 1vh;
+  max-height: 50px;
+}
+
+.nav-text {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  color: black;
+}
+
+.footer {
+  font-weight: bold;
 }
