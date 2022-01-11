@@ -15,7 +15,7 @@ export default function TakeWalkButton(props) {
       setNextId(res.data.records[random].id);
     }
     fetchIds();
-  }, [])
+  }, [props])
 
   const handleClick = () => {
     navigate(`/story/${nextId}`)
