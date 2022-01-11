@@ -8,7 +8,7 @@ export default function TakeWalk() {
       <img
         src="https://i.imgur.com/4PjtPDR.jpg"
         alt="Map of Central Park"
-        className="map"></img>
+        className="map"/>
     </div>
   )
 }
