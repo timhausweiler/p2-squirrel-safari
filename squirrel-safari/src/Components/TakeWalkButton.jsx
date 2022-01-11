@@ -12,6 +12,7 @@ export default function TakeWalkButton(props) {
       const res = await api.get();
       const len = res.data.records.length;
       const random = Math.floor(Math.random() * len)
+      console.log(random);
       setNextId(res.data.records[random].id);
     }
     fetchIds();
@@ -23,6 +24,6 @@ export default function TakeWalkButton(props) {
   }
 
   return (
-    <button onClick={handleClick}>Take a walk!</button>
+    <button onClick={handleClick}>{props.buttonText}</button>
   )
 }

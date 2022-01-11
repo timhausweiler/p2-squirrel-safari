@@ -22,7 +22,7 @@ function App() {
             />
             <h1>Welcome to Squirrel Safari</h1>
             <p>Squirrel Safari allows you to take a (virtual) walk through Central Park to learn about the local squirrel population!</p>
-            <TakeWalkButton click={click} setClick={ setClick}/>
+            <TakeWalkButton click={click} setClick={ setClick} buttonText = "Take a walk"/>
             <br/>
             <Link to="/contribute" className = "link">Or contribute your own observation to our collection</Link>
           </div>
