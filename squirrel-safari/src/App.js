@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react';
 
 import Contribute from './Components/Contribute';
 import TakeWalkButton from './Components/TakeWalkButton';
-import Story from './Components/Story';
+import StoryContainer from './Components/StoryContainer';
 
 function App() {
   const [click, setClick] = useState();
@@ -28,7 +28,7 @@ function App() {
           </div>
         } />
         <Route path="/contribute" element={<Contribute />} />
-        <Route path = "/story/:id" element = {<Story />}/>
+        <Route path = "/story/:id" element = {<StoryContainer />}/>
       </Routes>
     </div>
   );

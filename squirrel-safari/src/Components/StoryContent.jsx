@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import TakeWalkButton from './TakeWalkButton';
 
-export default function Story() {
+export default function StoryContent() {
   const [story, setStory] = useState({});
   const [click, setClick] =useState(true)
 
