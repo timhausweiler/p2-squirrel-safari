@@ -15,9 +15,10 @@ function App() {
             <img
               src= {"https://i.imgur.com/RK3UbZi.jpeg"}
               alt="Logo of Squirrel Safari"
+              className="logo"
             />
             <h1>Welcome to Squirrel Safari</h1>
-            <h4>Squirrel Safari allows you to take a (vritual) walk through Central Park to learn about the local squirrel population!</h4>
+            <h4>Squirrel Safari allows you to take a (virtual) walk through Central Park to learn about the local squirrel population!</h4>
             <TakeWalkButton />
             <br/>
             <Link to ="/contribute" >Or contribute your own observation to our collection</Link>
