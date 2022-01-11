@@ -47,6 +47,9 @@ function App() {
         <Route path="/contribute" element={<Contribute />} />
         <Route path="/story/:id" element={<StoryContainer nextId={nextId} setClick={setClick}/>}/>
       </Routes>
+      <br/>
+      <br/>
+      <br/>
       <Footer/>
     </div>
   );
