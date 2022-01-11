@@ -1,8 +1,10 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
+import { Link } from "react-router-dom"
+
+import Contribute from './Components/Contribute';
 import TakeWalk from './Components/TakeWalk';
 import TakeWalkButton from './Components/TakeWalkButton';
-import { Link } from "react-router-dom"
 
 function App() {
   return (
@@ -22,6 +24,7 @@ function App() {
           </div>
         } />
         <Route path="/takewalk" element={<TakeWalk />} />
+        <Route path="/contribute" element={<Contribute />} />
       </Routes>
     </div>
   );
