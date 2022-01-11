@@ -5,11 +5,10 @@ export default function TakeWalkButton(props) {
 
   const handleClick = () => {
     navigate(`/story/${props.nextId}`)
-    props.fetchIds();
+    props.setClick(click=>!click);
   }
 
   return (
     <button onClick={handleClick}>{props.buttonText}</button>
   )
 }
-

@@ -15,7 +15,7 @@ export default function StoryContainer(props) {
         />
         <StoryContent className="story-content"/>
       </div>
-      <TakeWalkButton buttonText = "Walk to next squirrel"/>
+      <TakeWalkButton buttonText="Walk to next squirrel" nextId={props.nextId} setClick={props.setClick}/>
     </div>
   )
 }
