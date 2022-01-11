@@ -1,6 +1,7 @@
 import api from '../Services/apiConfig';
 import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
+import TakeWalkButton from './TakeWalkButton';
 
 export default function Story() {
   const [story, setStory] = useState({});
@@ -8,7 +9,7 @@ export default function Story() {
   
   useEffect(() => {
     const fetchStories = async () => {
-      await api.get(`/${id}`);
+      const res = await api.get(`/${id}`);
       setStory(res.data);
     };
     fetchStories();
@@ -22,6 +23,7 @@ export default function Story() {
     <div>
       <h2>{story.fields?.name}</h2>
       <h4>{story.fields.story}</h4>
+      <TakeWalkButton/>
     </div>
   )
 

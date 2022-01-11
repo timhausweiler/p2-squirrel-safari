@@ -5,6 +5,7 @@ import { Link } from "react-router-dom"
 import Contribute from './Components/Contribute';
 import TakeWalk from './Components/TakeWalk';
 import TakeWalkButton from './Components/TakeWalkButton';
+import Story from './Components/Story';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         } />
         <Route path="/takewalk" element={<TakeWalk />} />
         <Route path="/contribute" element={<Contribute />} />
+        <Route path = "/story/:id" element = {<Story />}/>
       </Routes>
     </div>
   );
