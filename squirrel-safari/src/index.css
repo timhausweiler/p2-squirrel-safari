@@ -71,6 +71,7 @@ button {
 
 .headline {
   display: flex;
+  text-align: left;
   background-color: rgb(237, 237, 237);
   padding: 1vw;
   font-weight: bold;

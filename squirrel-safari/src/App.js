@@ -38,7 +38,7 @@ function App() {
               className="logo"
             /> */}
             <h1>Welcome to Squirrel Safari</h1>
-            <p>Squirrel Safari allows you to take a (virtual) walk through Central Park to learn about the local squirrel population!</p>
+            <p>This app allows you to go on a Squirrel Safari by taking a (virtual) walk through Central Park to learn about sightings of the local squirrel population!</p>
             <TakeWalkButton buttonText="Take a walk" nextId={nextId} setNextId={setNextId} setClick={setClick}/>
             <br />
             <br/>
