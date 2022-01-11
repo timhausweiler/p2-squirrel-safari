@@ -1,8 +1,8 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
-import Home from './Components/Home';
 import TakeWalk from './Components/TakeWalk';
 import TakeWalkButton from './Components/TakeWalkButton';
+import { Link } from "react-router-dom"
 
 function App() {
   return (
@@ -17,7 +17,8 @@ function App() {
             <h1>Welcome to Squirrel Safari</h1>
             <h4>Squirrel Safari allows you to take a (vritual) walk through Central Park to learn about the local squirrel population!</h4>
             <TakeWalkButton />
-            <p>Or contribute your own story to our collection</p>
+            <br/>
+            <Link to ="/takewalk" >Or contribute your own observation to our collection</Link>
           </div>
         } />
         <Route path="/takewalk" element={<TakeWalk />} />
