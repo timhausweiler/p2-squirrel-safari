@@ -24,6 +24,7 @@ export default function EditStory() {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
+    delete input.date;
     const fields = input;
     await api.put(`/${id}`, { fields });
     setInput(default_input);
