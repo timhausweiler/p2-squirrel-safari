@@ -1,11 +1,16 @@
 import React from 'react';
 import StoryContent from './StoryContent';
 import TakeWalkButton from './TakeWalkButton';
-import { Link } from 'react-router-dom';
-import { useParams } from 'react-router-dom';
+import { Link, useParams, useNavigate } from 'react-router-dom';
+import api from '../Services/apiConfig';
 
 export default function StoryContainer(props) {
   const { id } = useParams();
+  const navigate = useNavigate();
+  const handleDelete = async () => {
+    await api.delete(`/${id}`)
+    navigate("/storylist")
+  }
 
   return (
     <div>
@@ -20,7 +25,9 @@ export default function StoryContainer(props) {
       </div>
       <TakeWalkButton buttonText="Walk to next squirrel" nextId={props.nextId} setClick={props.setClick} />
       <br/>
-      <Link to={`/story/${id}/edit`} className = "link">Or edit this story</Link>
+      <div>
+        <Link to={`/story/${id}/edit`} className="link">Edit</Link> or <Link to ="/" className = "Link" onClick = {handleDelete}>delete</Link> this story
+      </div>
     </div>
   )
 }
