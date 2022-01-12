@@ -10,6 +10,7 @@ import Navbar from './Components/Navbar';
 import api from './Services/apiConfig';
 import Footer from './Components/Footer';
 import StoryList from './Components/StoryList';
+import EditStory from './Components/EditStory';
 
 function App() {
   const [nextId, setNextId] = useState([]);
@@ -48,6 +49,7 @@ function App() {
           } />
           <Route path="/contribute" element={<Contribute />} />
           <Route path="/story/:id" element={<StoryContainer nextId={nextId} setClick={setClick}/>}/>
+          <Route path="/story/:id/edit" element={<EditStory />}/>
           <Route path="/storylist/" element={<StoryList />}/>
         </Routes>
       </div>

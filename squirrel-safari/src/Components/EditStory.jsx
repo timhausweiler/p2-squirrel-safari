@@ -1,4 +1,12 @@
-import React from 'react'
+import Form from './Form';
+import { useNavigate, useParams } from 'react-router-dom';
+import { useState, useEffect } from 'react'
+import api from '../Services/apiConfig';
+
+const default_input = {
+  "name": "",
+  "story": "" 
+}
 
 export default function EditStory() {
   const [input, setInput] = useState(default_input);
@@ -21,13 +29,15 @@ export default function EditStory() {
     setInput(default_input);
     navigate(`/story/${id}`);
     // console.log(res.data);
-}
-
-  const default_input = {
-    "name": "",
-    "story": "" 
   }
-
+  
+  const handleTextInput = (event) => { 
+    const { id, value } = event.target;
+    setInput((prevInput) => ({
+      ...prevInput,
+      [id]: value,
+    }))
+  }
 
   return (
     <div>
