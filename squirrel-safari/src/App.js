@@ -50,7 +50,7 @@ function App() {
           <Route path="/story/:id" element={<StoryContainer nextId={nextId} setClick={setClick}/>}/>
           <Route path="/storylist/" element={<StoryList />}/>
         </Routes>
-        </div>
+      </div>
       <br/>
       <br/>
       <br/>

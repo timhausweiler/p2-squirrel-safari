@@ -1,7 +1,6 @@
 import React from 'react'
 
 export default function Form(props) {
-  // console.log(props);
   const { name, story } = props.input;
 
   return (
