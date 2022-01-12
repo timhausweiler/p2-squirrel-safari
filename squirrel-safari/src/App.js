@@ -27,28 +27,30 @@ function App() {
    }, [click])
 
   return (
-    <div className="body">
+    <div>
       <Navbar nextId={nextId} setNextId={setNextId}/>
-      <Routes>
-        <Route path="/" element={
-          <div className ="body">
-            {/* <img
-              src= {"https://i.imgur.com/RK3UbZi.jpeg"}
-              alt="Logo of Squirrel Safari"
-              className="logo"
-            /> */}
-            <h1>Welcome to Squirrel Safari</h1>
-            <p>This app allows you to go on a Squirrel Safari: take a (virtual) walk through Central Park and explore other user's stories about their squirrel encounters!</p>
-            <TakeWalkButton buttonText="Take a walk" nextId={nextId} setNextId={setNextId} setClick={setClick}/>
-            <br />
-            <br/>
-            <Link to="/contribute" className = "link">Or contribute your own observation to our collection</Link>
-          </div>
-        } />
-        <Route path="/contribute" element={<Contribute />} />
-        <Route path="/story/:id" element={<StoryContainer nextId={nextId} setClick={setClick}/>}/>
-        <Route path="/storylist/" element={<StoryList />}/>
-      </Routes>
+      <div className="body">
+        <Routes>
+          <Route path="/" element={
+            <div className ="body">
+              {/* <img
+                src= {"https://i.imgur.com/RK3UbZi.jpeg"}
+                alt="Logo of Squirrel Safari"
+                className="logo"
+              /> */}
+              <h1>Welcome to Squirrel Safari</h1>
+              <p>This app allows you to go on a Squirrel Safari: take a (virtual) walk through Central Park and explore other user's stories about their squirrel encounters!</p>
+              <TakeWalkButton buttonText="Take a walk" nextId={nextId} setNextId={setNextId} setClick={setClick}/>
+              <br />
+              <br/>
+              <Link to="/contribute" className = "link">Or contribute your own observation to our collection</Link>
+            </div>
+          } />
+          <Route path="/contribute" element={<Contribute />} />
+          <Route path="/story/:id" element={<StoryContainer nextId={nextId} setClick={setClick}/>}/>
+          <Route path="/storylist/" element={<StoryList />}/>
+        </Routes>
+        </div>
       <br/>
       <br/>
       <br/>

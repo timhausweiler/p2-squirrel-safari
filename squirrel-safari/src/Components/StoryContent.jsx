@@ -22,7 +22,7 @@ export default function Story(props) {
   }
     
   return (
-    <div className = "story-box">
+    <div className = "story-content">
       <div className="headline">Submitted by {story.fields?.name} on {story.fields.date}</div>
       <div className = "story">{story.fields.story}</div>
     </div>

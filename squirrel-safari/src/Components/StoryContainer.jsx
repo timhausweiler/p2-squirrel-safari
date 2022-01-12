@@ -13,7 +13,7 @@ export default function StoryContainer(props) {
           alt="map of central park"
           className = "map"
         />
-        <StoryContent className="story-content"/>
+        <StoryContent/>
       </div>
       <TakeWalkButton buttonText="Walk to next squirrel" nextId={props.nextId} setClick={props.setClick}/>
     </div>

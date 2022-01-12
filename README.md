@@ -73,14 +73,14 @@ Airtable is returning the data for this base as follows:
 
 ## Project Schedule
 
-| Day     | Deliverable                               | Status |
-| ------- | ----------------------------------------- | ------ |
-| Jan9-10 | Proposal Approval / Airtable Setup        | WIP    |
-| Jan 10  | Creating react-app and component Creation |        |
-| Jan 11  | Get and Set Data                          |        |
-| Jan 12  | Router functionality                      |        |
-| Jan 13  | Styling and responsiveness                |        |
-| Jan 14  | Presentations                             |        |
+| Day     | Deliverable                               | Status   |
+| ------- | ----------------------------------------- | -------- |
+| Jan9-10 | Proposal Approval / Airtable Setup        | Complete |
+| Jan 10  | Creating react-app and component Creation | Complete |
+| Jan 11  | Get and Set Data                          | Complete |
+| Jan 12  | Router functionality                      | Complete |
+| Jan 13  | Styling and responsiveness                | WIP      |
+| Jan 14  | Presentations                             |          |
 
 ## Timeframes
 
@@ -88,16 +88,16 @@ Airtable is returning the data for this base as follows:
 | -------------------------- | :------: | :------------: | :-----------: | :---------: |
 | Proposal                   |    H     |      4hrs      |     4hrs      |    4hrs     |
 | Airtable setup             |    H     |     .5hrs      |      1hr      |     1hr     |
-| Initial setup of react app |    H     |      1hr       |      tbd      |     tbd     |
-| Get functionality          |    H     |      4hrs      |      tbd      |     tbd     |
-| Set functionality          |    H     |      4hrs      |      tbd      |     tbd     |
-| Router functionality       |    H     |      4hrs      |      tbd      |     tbd     |
-| Setting up components      |    H     |      4hrs      |      tbd      |     tbd     |
-| Component functionality    |    H     |      8hrs      |      tbd      |     tbd     |
-| Styling                    |    H     |      4hrs      |      tbd      |     tbd     |
-| Responsiveness             |    H     |      4hrs      |      tbd      |     tbd     |
-| Misc / bug fixes           |    H     |      4hrs      |      tbd      |     tbd     |
-| Total                      |    H     |    41.5hrs     |      tbd      |     tbd     |
+| Initial setup of react app |    H     |      1hr       |      1hr      |     1hr     |
+| Get functionality          |    H     |      4hrs      |     4hrs      |    4hrs     |
+| Set functionality          |    H     |      4hrs      |     4hrs      |    4hrs     |
+| Router functionality       |    H     |      4hrs      |     4hrs      |    4hrs     |
+| Setting up components      |    H     |      4hrs      |     4hrs      |    4hrs     |
+| Component functionality    |    H     |      8hrs      |     8hrs      |    8hrs     |
+| Styling                    |    H     |      4hrs      |     5hrs      |    5hrs     |
+| Responsiveness             |    H     |      4hrs      |     4hrs      |    4hrs     |
+| Misc / bug fixes           |    H     |      4hrs      |     2hrs      |    2hrs     |
+| Total                      |    H     |    41.5hrs     |     41hrs     |    41hrs    |
 
 ## SWOT Analysis
 
