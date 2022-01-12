@@ -28,7 +28,7 @@ export default function Contribute() {
     const fields = input;
     await api.post("/", { fields });
     setInput(default_input);
-    navigate("/");
+    navigate("/allstories");
   }
 
   return (
