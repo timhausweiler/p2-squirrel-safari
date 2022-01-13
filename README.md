@@ -96,8 +96,8 @@ Airtable is returning the data for this base as follows:
 | Component functionality    |    H     |      8hrs      |     8hrs      |    8hrs     |
 | Styling                    |    H     |      4hrs      |     5hrs      |    5hrs     |
 | Responsiveness             |    H     |      4hrs      |     4hrs      |    4hrs     |
-| Misc / bug fixes           |    H     |      4hrs      |     2hrs      |    2hrs     |
-| Total                      |    H     |    41.5hrs     |     41hrs     |    41hrs    |
+| Misc / bug fixes           |    H     |      4hrs      |     4hrs      |    4hrs     |
+| Total                      |    H     |    41.5hrs     |     43hrs     |    43hrs    |
 
 ## SWOT Analysis
 
