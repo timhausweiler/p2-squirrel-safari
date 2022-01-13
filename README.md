@@ -80,7 +80,7 @@ Airtable is returning the data for this base as follows:
 | Jan 11  | Get and Set Data                          | Complete |
 | Jan 12  | Router functionality                      | Complete |
 | Jan 13  | Styling and responsiveness                | WIP      |
-| Jan 14  | Presentations                             |          |
+| Jan 14  | Presentations                             | Tbd      |
 
 ## Timeframes
 
