@@ -73,14 +73,14 @@ Airtable is returning the data for this base as follows:
 
 ## Project Schedule
 
-| Day     | Deliverable                               | Status   |
-| ------- | ----------------------------------------- | -------- |
-| Jan9-10 | Proposal Approval / Airtable Setup        | Complete |
-| Jan 10  | Creating react-app and component Creation | Complete |
-| Jan 11  | Get and Set Data                          | Complete |
-| Jan 12  | Router functionality                      | Complete |
-| Jan 13  | Styling and responsiveness                | WIP      |
-| Jan 14  | Presentations                             | Tbd      |
+| Day     | Deliverable                               | Status          |
+| ------- | ----------------------------------------- | --------------- |
+| Jan9-10 | Proposal Approval / Airtable Setup        | Complete        |
+| Jan 10  | Creating react-app and component Creation | Complete        |
+| Jan 11  | Get and Set Data                          | Complete        |
+| Jan 12  | Router functionality                      | Complete        |
+| Jan 13  | Styling and responsiveness                | Almost complete |
+| Jan 14  | Presentations                             | Tbd             |
 
 ## Timeframes
 
