@@ -2,7 +2,7 @@
 
 ## Project name: Squirrel Safari
 
-Link coming soon
+[Squirrel Safari](https://silly-kepler-eaa179.netlify.app/)
 
 ## Project Description
 
@@ -79,7 +79,7 @@ Airtable is returning the data for this base as follows:
 | Jan 10  | Creating react-app and component Creation | Complete |
 | Jan 11  | Get and Set Data                          | Complete |
 | Jan 12  | Router functionality                      | Complete |
-| Jan 13  | Styling and responsiveness                | Wip      |
+| Jan 13  | Styling and responsiveness                | Complete |
 | Jan 14  | Presentations                             | Tbd      |
 
 ## Timeframes
