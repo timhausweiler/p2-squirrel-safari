@@ -42,7 +42,7 @@ button {
   height: 400px;
   margin: 2vh;
   flex-direction: row;
-  align-items: start;
+  align-items: flex-start;
 }
 
 .story-content {
