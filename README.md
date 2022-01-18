@@ -20,7 +20,8 @@ Squirrel Safari is an updated version of my [P1 Squirrel Safari](https://github.
 
 ## Component Hierarchy
 
-<img src ="https://lh3.googleusercontent.com/pw/AM-JKLWurYA0t5Pv0t6iWpr3WldEsV6fPtDNowqKB_c_Z1K0jCw3gS0ccSvtTho0scezvsnWnLzWem-SzY-xP2j20a4aCKmmYn33qoWiUF1A4inwKo0EY4cZCufVHuzlMxhDmI0iUtJF2SePqNm5ZC-8jiQspg=w981-h383-no?authuser=0" width = 400>
+<img src ="https://lh3.googleusercontent.com/pw/AM-JKLXurCVa0xbggL--_-um68TZzFXm4Z_xnp8wD3POV9oXRowQl_u4DaZh-u7Vj9XMlSP9Bqk2hpRIm_Qi0iD6pYRFva_W4Epfxy65dOTc4XM4VYfImL6tOwCPARYV22I7LW17zp4fotiHyiYElVMfFhW3mw=w1130-h306-no?authuser=0" 
+width = 400>
 
 ## API and Data Sample
 
