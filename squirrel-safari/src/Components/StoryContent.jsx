@@ -1,21 +1,19 @@
 import api from '../Services/apiConfig';
 import { useState, useEffect } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 
 export default function Story(props) {
   const [story, setStory] = useState({});
 
   const { id } = useParams();
 
-  const month = story.fields;
-  
   useEffect(() => {
     const fetchStories = async () => {
       const res = await api.get(`/${id}`);
       setStory(res.data);
     };
     fetchStories();
-  }, [props])
+  }, [props, id])
 
   if (!story.fields) {
     return <div><h2>Walking...!!!</h2></div>

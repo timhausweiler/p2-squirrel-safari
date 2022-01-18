@@ -20,7 +20,7 @@ export default function EditStory() {
       setInput(res.data.fields);
     };
     fetchStories();
-  }, [])
+  }, [id])
 
   const handleSubmit = async (event) => {
     event.preventDefault();
