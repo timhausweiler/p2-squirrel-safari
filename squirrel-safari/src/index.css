@@ -69,6 +69,7 @@ button {
 
 input {
   width: 20vw;
+  min-width: 240px;
   border: solid rgb(216, 216, 216) 4px;
   margin: 20px;
 }
